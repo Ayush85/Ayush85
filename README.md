@@ -1,6 +1,5 @@
 # Hi 👋, I'm Ayush Shrestha
-## A passionate developer from Nepal
-I am currently learning react and machine learning
+## A passionate full stack developer from Nepal
 
 
 ## 🌐 Socials:
