@@ -85,8 +85,6 @@ flowchart LR
 | Project | Visibility | Stack | Engineering notes |
 | --- | --- | --- | --- |
 | [**egg-farm**](https://egg-farm.aydexis.com) | `live` | `TypeScript` | Management platform for poultry and egg farm operations (source private) |
-| **fatafat** ([api](https://github.com/ayush85/fatafat-backend)) | `public` api / `private` web | `Next.js` `Laravel` `MySQL` | Storefront on a versioned REST API: Sanctum token auth, cart and orders, reviews, Scribe-generated docs |
-| **optix** | `private` | `Next.js 15` `Hono` `tRPC` `Drizzle` `Postgres` | pnpm + turbo monorepo; append-only custody ledger folded by pure domain logic; Docker-only dev; three background workers |
 | [**menuor**](https://github.com/ayush85/MoodMenu) | `public` | `Next.js` `Prisma` `Docker` | Multi-tenant menus; per-restaurant custom domains with cron-driven nginx vhost + certbot provisioning |
 | [**aydexCloud**](https://github.com/ayush85/aydexCloud) | `public` | `Go` `Next.js` `Prisma` `Caddy` | Privacy-first analytics: Go event tracker, Next.js dashboard, Sentry, Compose deploy |
 | **futsal** | `private` | `React` `Express` `Prisma` `Postgres` | Role-based booking (customer / owner / admin); slot lock on approve auto-rejects competing requests |
