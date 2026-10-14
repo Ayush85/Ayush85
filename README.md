@@ -84,7 +84,7 @@ flowchart LR
 
 | Project | Visibility | Stack | Engineering notes |
 | --- | --- | --- | --- |
-| [**egg-farm**](https://egg-farm.aydexis.com) | `live` | `TypeScript` | Poultry and egg farm operations platform, deployed on own infrastructure |
+| [**egg-farm**](https://egg-farm.aydexis.com) | `live` | `TypeScript` | Management platform for poultry and egg farm operations (source private) |
 | **fatafat** ([api](https://github.com/ayush85/fatafat-backend)) | `public` api / `private` web | `Next.js` `Laravel` `MySQL` | Storefront on a versioned REST API: Sanctum token auth, cart and orders, reviews, Scribe-generated docs |
 | **optix** | `private` | `Next.js 15` `Hono` `tRPC` `Drizzle` `Postgres` | pnpm + turbo monorepo; append-only custody ledger folded by pure domain logic; Docker-only dev; three background workers |
 | [**menuor**](https://github.com/ayush85/MoodMenu) | `public` | `Next.js` `Prisma` `Docker` | Multi-tenant menus; per-restaurant custom domains with cron-driven nginx vhost + certbot provisioning |
