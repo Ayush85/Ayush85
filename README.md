@@ -29,13 +29,7 @@ stack:       [TypeScript, React, .NET Core, Node.js, Django, Go, Kubernetes]
 ## `~ $ ls ./stack`
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,py,cs,go,php,html,css&theme=dark" alt="Languages"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,dotnet,django,jquery&theme=dark" alt="Frameworks"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,sqlite,mongodb&theme=dark" alt="Databases"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,prometheus,grafana,githubactions,gitlab,digitalocean,git&theme=dark" alt="Infrastructure"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,py,cs,go,php,html,css,react,nodejs,express,dotnet,django,jquery,postgres,mysql,supabase,sqlite,mongodb,docker,kubernetes,nginx,prometheus,grafana,githubactions,gitlab,git,linux&perline=7&theme=dark" alt="Languages, frameworks, databases and infrastructure"/>
 </p>
 
 **Also:** Proxmox · LXD · HAProxy · Traefik · WireGuard · Loki · Alloy · k6 · MQTT · Certbot/ACME · Swagger · Jira
