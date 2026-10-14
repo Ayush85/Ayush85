@@ -1,7 +1,7 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Ayush%20Shrestha&fontColor=00f5d4&fontSize=52&fontAlignY=38&desc=Full%20Stack%20and%20Infrastructure%20Engineer&descColor=9be7ff&descSize=18&descAlignY=60" alt="Ayush Shrestha"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:05010f,40:1b0a3c,100:00f5d4&text=AYUSH%20SHRESTHA&fontColor=00f5d4&fontSize=54&fontAlignY=38&animation=twinkling&stroke=ff2bd6&strokeWidth=1&desc=%3E_%20Full%20Stack%20%7C%20Infrastructure%20%7C%20Distributed%20Systems&descColor=ff7ae6&descSize=18&descAlignY=62" alt="Ayush Shrestha"/>
 
 <p align="center">
-  <a href="https://github.com/ayush85"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=00F5D4&center=true&vCenter=true&width=640&lines=%24+kubectl+get+nodes+--all;%24+mysql+%3E+SHOW+REPLICA+STATUS%5CG;%24+shipping+React+%2B+TypeScript+to+prod;%24+building+systems+from+code+to+cluster" alt="typing intro"/></a>
+  <a href="https://github.com/ayush85"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=900&color=00F5D4&center=true&vCenter=true&width=720&lines=%3E+booting+ayush.os+...+OK;%24+kubectl+get+nodes+--all;%24+mysql+%3E+SHOW+REPLICA+STATUS%5CG;%24+mosquitto_sub+-t+%27access%2F%23%27;%24+shipping+React+%2B+TypeScript+to+prod;%3E+building+systems+from+code+to+cluster" alt="typing intro"/></a>
 </p>
 
 <p align="center">
@@ -12,6 +12,15 @@
 </p>
 
 ---
+
+```text
+[  OK  ] Started k3s cluster ............. 2 nodes
+[  OK  ] Started MySQL 8.4 ............... GTID semi-sync replica
+[  OK  ] Started nginx + HAProxy ......... JWT/NJS routing, active-active
+[  OK  ] Started MQTT bus ................ real-time access control sync
+[  OK  ] Started observability ........... Prometheus / Grafana / Loki
+[ .... ] Loading next project ............ ready for collaboration
+```
 
 ## `~ $ whoami`
 
@@ -93,8 +102,10 @@ flowchart LR
 ## `~ $ ./stats.sh`
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ayush85&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush85&theme=tokyonight&hide_border=true&layout=compact" alt="Top languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ayush85&theme=synthwave&hide_border=true&bg_color=0d0221&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush85&theme=synthwave&hide_border=true&bg_color=0d0221&layout=compact" alt="Top languages"/>
+  <br/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ayush85&bg_color=0d0221&color=00f5d4&line=ff2bd6&point=ffffff&area=true&area_color=ff2bd6&hide_border=true" alt="Contribution graph"/>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2c5364,100:0f2027&section=footer" alt=""/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:00f5d4,50:1b0a3c,100:05010f&section=footer&animation=twinkling" alt=""/>
