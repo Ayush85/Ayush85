@@ -80,17 +80,17 @@ flowchart LR
                    HR system (Django), Core PHP + Supabase, Pandas/Selenium scraping
 ```
 
-## `~ $ ls ./projects`
+## `~ $ ls -l ./projects`
 
-| Project | What it is | Tech |
-| --- | --- | --- |
-| **Fatafat** ([API](https://github.com/ayush85/fatafat-backend)) | E-commerce platform: Next.js storefront (private repo) on a Laravel REST API with Sanctum auth, products, cart, orders, reviews and Scribe docs | Next.js, Laravel, MySQL |
-| [**Egg Farm Management**](https://egg-farm.aydexis.com) | Management platform for poultry and egg farm operations (live demo; source is private) | TypeScript |
-| **Optix** | Small-tools and equipment tracking for construction: custody, jobsite assignment and an append-only ledger (private repo) | Next.js, Hono, tRPC, Drizzle, Postgres |
-| [**Menuor**](https://github.com/ayush85/MoodMenu) | Multi-restaurant menu platform with per-restaurant custom domains, automated nginx and Let's Encrypt provisioning | Next.js, Prisma, Docker |
-| [**aydexCloud**](https://github.com/ayush85/aydexCloud) | Privacy-focused web analytics: Go event tracker with a Next.js dashboard | Go, Next.js, Prisma |
-| **Futsal Booking** | Court booking with customer, owner and admin roles and an approve/reject flow (private repo) | React, Express, Prisma |
-| [**FinTrack**](https://github.com/ayush85/FinTrack) | React Native app that parses bank and wallet SMS into categorized spending summaries | React Native |
+| Project | Visibility | Stack | Engineering notes |
+| --- | --- | --- | --- |
+| [**egg-farm**](https://egg-farm.aydexis.com) | `live` | `TypeScript` | Poultry and egg farm operations platform, deployed on own infrastructure |
+| **fatafat** ([api](https://github.com/ayush85/fatafat-backend)) | `public` api / `private` web | `Next.js` `Laravel` `MySQL` | Storefront on a versioned REST API: Sanctum token auth, cart and orders, reviews, Scribe-generated docs |
+| **optix** | `private` | `Next.js 15` `Hono` `tRPC` `Drizzle` `Postgres` | pnpm + turbo monorepo; append-only custody ledger folded by pure domain logic; Docker-only dev; three background workers |
+| [**menuor**](https://github.com/ayush85/MoodMenu) | `public` | `Next.js` `Prisma` `Docker` | Multi-tenant menus; per-restaurant custom domains with cron-driven nginx vhost + certbot provisioning |
+| [**aydexCloud**](https://github.com/ayush85/aydexCloud) | `public` | `Go` `Next.js` `Prisma` `Caddy` | Privacy-first analytics: Go event tracker, Next.js dashboard, Sentry, Compose deploy |
+| **futsal** | `private` | `React` `Express` `Prisma` `Postgres` | Role-based booking (customer / owner / admin); slot lock on approve auto-rejects competing requests |
+| [**FinTrack**](https://github.com/ayush85/FinTrack) | `public` | `React Native` | On-device SMS parsing into categorized debit/credit summaries |
 
 ## `~ $ ./stats.sh`
 
