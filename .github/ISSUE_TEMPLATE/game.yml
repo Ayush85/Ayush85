@@ -1,0 +1,20 @@
+name: Play incident response
+description: Take one turn in the shared cluster incident game
+title: "[game] "
+body:
+  - type: dropdown
+    id: command
+    attributes:
+      label: Command
+      description: One command per turn. A different player must move next.
+      options:
+        - restart api
+        - restart db
+        - restart cache
+        - restart queue
+        - scale api
+        - failover db
+        - flush cache
+        - drain queue
+    validations:
+      required: true

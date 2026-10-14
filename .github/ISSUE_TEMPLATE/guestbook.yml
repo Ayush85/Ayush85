@@ -1,0 +1,12 @@
+name: Sign the guestbook
+description: Leave a line in the terminal log on the profile
+title: "[guestbook] "
+body:
+  - type: input
+    id: message
+    attributes:
+      label: Message
+      description: Up to 60 characters. Letters, numbers and basic punctuation only.
+      placeholder: hello from the future
+    validations:
+      required: true
