@@ -84,12 +84,13 @@ flowchart LR
 
 | Project | What it is | Tech |
 | --- | --- | --- |
-| [**Inventory**](https://inventory.nagariktech.com) | Business management SaaS for Nepali SMEs: stock, invoicing, ledgers, P&L, barcode scanning mobile app | SaaS, mobile |
-| [**Egg Farm Management**](https://eggfarm.aydexis.com) | Management platform for poultry and egg farm operations ([backend](https://github.com/ayush85/egg-farm-management), [frontend](https://github.com/ayush85/egg-farm-frontend)) | TypeScript |
-| **PocketBase-style backend** | Backend from scratch in Go with multi-database support, multi-tenant orgs, scoped API keys, rate limiting | Go |
-| **Multi-tenant Docker setup** | nginx subdomain routing with Traefik label-based service discovery | Docker, Traefik |
-| **Chat support backend** | Refactored a ~900-line monolith into modules, fixed N+1 queries, parallelized push notifications | Node.js, Socket.io |
-| [**Explainable Disease Prediction**](https://github.com/ayush85/Explainable-Disease-Prediction-System) | Disease prediction with explainable ML | Python, Jupyter |
+| **Fatafat** ([API](https://github.com/ayush85/fatafat-backend)) | E-commerce platform: Next.js storefront (private repo) on a Laravel REST API with Sanctum auth, products, cart, orders, reviews and Scribe docs | Next.js, Laravel, MySQL |
+| [**Egg Farm Management**](https://egg-farm.aydexis.com) | Management platform for poultry and egg farm operations (live demo; source is private) | TypeScript |
+| **Optix** | Small-tools and equipment tracking for construction: custody, jobsite assignment and an append-only ledger (private repo) | Next.js, Hono, tRPC, Drizzle, Postgres |
+| [**Menuor**](https://github.com/ayush85/MoodMenu) | Multi-restaurant menu platform with per-restaurant custom domains, automated nginx and Let's Encrypt provisioning | Next.js, Prisma, Docker |
+| [**aydexCloud**](https://github.com/ayush85/aydexCloud) | Privacy-focused web analytics: Go event tracker with a Next.js dashboard | Go, Next.js, Prisma |
+| **Futsal Booking** | Court booking with customer, owner and admin roles and an approve/reject flow (private repo) | React, Express, Prisma |
+| [**FinTrack**](https://github.com/ayush85/FinTrack) | React Native app that parses bank and wallet SMS into categorized spending summaries | React Native |
 
 ## `~ $ ./stats.sh`
 
