@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Ayush%20Shrestha&fontColor=00f5d4&fontSize=52&fontAlignY=38&desc=Full%20Stack%20%26%20Infrastructure%20Engineer&descColor=9be7ff&descSize=18&descAlignY=60" alt="Ayush Shrestha"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Ayush%20Shrestha&fontColor=00f5d4&fontSize=52&fontAlignY=38&desc=Full%20Stack%20and%20Infrastructure%20Engineer&descColor=9be7ff&descSize=18&descAlignY=60" alt="Ayush Shrestha"/>
 
 <p align="center">
   <a href="https://github.com/ayush85"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=00F5D4&center=true&vCenter=true&width=640&lines=%24+kubectl+get+nodes+--all;%24+mysql+%3E+SHOW+REPLICA+STATUS%5CG;%24+shipping+React+%2B+TypeScript+to+prod;%24+building+systems+from+code+to+cluster" alt="typing intro"/></a>
