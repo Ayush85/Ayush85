@@ -9,7 +9,6 @@
   <a href="mailto:ayushshrestha8585@gmail.com"><img src="https://img.shields.io/badge/Email-00F5D4?style=flat-square&logo=gmail&logoColor=0f2027" alt="Email"/></a>
   <img src="https://img.shields.io/badge/Kathmandu-Nepal%20🇳🇵-203a43?style=flat-square" alt="Location"/>
   <img src="https://img.shields.io/badge/Experience-4%2B%20years-203a43?style=flat-square" alt="Experience"/>
-  <img src="https://komarev.com/ghpvc/?username=Ayush85&style=flat-square&color=203a43&label=Profile+views" alt="Profile views"/>
 </p>
 
 ---
