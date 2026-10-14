@@ -1,0 +1,34 @@
+name: guestbook
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: profile-data
+  cancel-in-progress: false
+jobs:
+  sign:
+    if: startsWith(github.event.issue.title, '[guestbook]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add entry
+        run: python3 scripts/guestbook.py
+        env:
+          REPLY_FILE: ${{ runner.temp }}/reply.txt
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/guestbook.json assets/guestbook.svg
+          git diff --cached --quiet || git commit -m "Guestbook entry"
+          git pull --rebase -q
+          git push
+      - name: Reply and close
+        run: gh issue close "$NUMBER" --comment "$(cat "$RUNNER_TEMP/reply.txt")"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}

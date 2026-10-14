@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 284" width="900" height="284" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+<title>incident-response.sh</title>
+<style>.d{fill:#6f86b3}.w{fill:#d7e5ff}.k{fill:#38f2c8}.r{fill:#ff7a90}.y{fill:#ffcc66}.cur{fill:#38f2c8;animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<rect width="900" height="284" rx="12" fill="#04070d"/><rect x=".5" y=".5" width="899" height="283" rx="12" fill="none" stroke="#1d2f55"/>
+<circle cx="22" cy="20" r="5" fill="#ff5f57"/><circle cx="40" cy="20" r="5" fill="#febc2e"/><circle cx="58" cy="20" r="5" fill="#28c840"/>
+<text x="450.0" y="24" text-anchor="middle" class="d" font-size="11">incident-response.sh</text>
+<text x="24" y="52" class="k">incident-response</text><text x="162" y="52" class="d">  round 1 · resolved 0 · outages 0</text>
+<text x="24" y="82" class="w">api    </text>
+<rect x="100" y="71" width="300" height="12" rx="3" fill="#0f1a30"/><rect x="100" y="71" width="180" height="12" rx="3" fill="#ffcc66"/>
+<rect x="309" y="68" width="2" height="18" fill="#6f86b3"/>
+<text x="412" y="82" class="y"> 60%</text>
+<text x="24" y="108" class="w">db     </text>
+<rect x="100" y="97" width="300" height="12" rx="3" fill="#0f1a30"/><rect x="100" y="97" width="108" height="12" rx="3" fill="#ffcc66"/>
+<rect x="309" y="94" width="2" height="18" fill="#6f86b3"/>
+<text x="412" y="108" class="y"> 36%</text>
+<text x="24" y="134" class="w">cache  </text>
+<rect x="100" y="123" width="300" height="12" rx="3" fill="#0f1a30"/><rect x="100" y="123" width="177" height="12" rx="3" fill="#ffcc66"/>
+<rect x="309" y="120" width="2" height="18" fill="#6f86b3"/>
+<text x="412" y="134" class="y"> 59%</text>
+<text x="24" y="160" class="w">queue  </text>
+<rect x="100" y="149" width="300" height="12" rx="3" fill="#0f1a30"/><rect x="100" y="149" width="177" height="12" rx="3" fill="#ffcc66"/>
+<rect x="309" y="146" width="2" height="18" fill="#6f86b3"/>
+<text x="412" y="160" class="y"> 59%</text>
+<text x="24" y="196" class="d">goal: every service at or above 70%.</text><text x="24" y="214" class="d">each turn the incident hits a random service for -15. a service at 0% is an outage.</text>
+<text x="500" y="52" class="d">recent turns</text>
+<text x="500" y="76" class="d">no turns yet. take the first one.</text>
+<text x="24" y="262" class="k">visitor@ayush85</text><text x="146" y="262" class="d">:~$ open an issue to move</text><rect class="cur" x="316" y="250" width="8" height="15"/>
+</svg>

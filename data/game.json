@@ -1,0 +1,14 @@
+{
+ "history": [],
+ "last_login": "",
+ "moves": [],
+ "outages": 0,
+ "round": 1,
+ "services": {
+  "api": 60,
+  "cache": 59,
+  "db": 36,
+  "queue": 59
+ },
+ "wins": 0
+}

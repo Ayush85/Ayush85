@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+<title>guestbook.log</title>
+<style>.d{fill:#6f86b3}.w{fill:#d7e5ff}.k{fill:#38f2c8}.r{fill:#ff7a90}.y{fill:#ffcc66}.cur{fill:#38f2c8;animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<rect width="900" height="150" rx="12" fill="#04070d"/><rect x=".5" y=".5" width="899" height="149" rx="12" fill="none" stroke="#1d2f55"/>
+<circle cx="22" cy="20" r="5" fill="#ff5f57"/><circle cx="40" cy="20" r="5" fill="#febc2e"/><circle cx="58" cy="20" r="5" fill="#28c840"/>
+<text x="450.0" y="24" text-anchor="middle" class="d" font-size="11">guestbook.log</text>
+<text x="24" y="62" class="d">no entries yet. be the first to sign.</text>
+<text x="24" y="96" class="k">visitor@ayush85</text><text x="146" y="96" class="d">:~$ </text><rect class="cur" x="178" y="84" width="8" height="15"/>
+</svg>

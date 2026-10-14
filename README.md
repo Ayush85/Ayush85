@@ -79,3 +79,26 @@ stack:       [TypeScript, React, .NET Core, Node.js, Django, Go, Kubernetes]
 <p align="center">
   <img src="assets/telemetry.svg" alt="Live GitHub telemetry" width="100%"/>
 </p>
+
+## `~ $ ./commit-network`
+
+<p align="center">
+  <img src="assets/network.svg" alt="Commit network that grows every night" width="100%"/>
+</p>
+
+## `~ $ ./incident-response`
+
+A shared cluster incident, played one turn at a time through GitHub issues. Keep every service above 70% before any hits 0%.
+**[Take a turn](https://github.com/Ayush85/Ayush85/issues/new?template=game.yml)** (a different player has to move next).
+
+<p align="center">
+  <img src="assets/game.svg" alt="Incident response game state" width="100%"/>
+</p>
+
+## `~ $ tail -f guestbook.log`
+
+**[Sign the guestbook](https://github.com/Ayush85/Ayush85/issues/new?template=guestbook.yml)** and your line shows up below within a minute.
+
+<p align="center">
+  <img src="assets/guestbook.svg" alt="Visitor guestbook" width="100%"/>
+</p>
