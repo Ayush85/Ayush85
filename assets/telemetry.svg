@@ -1,6 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-<title>GitHub telemetry (initializing)</title>
-<rect width="900" height="120" rx="12" fill="#070b14"/><rect x=".5" y=".5" width="899" height="119" rx="12" fill="none" stroke="#1d2f55"/>
-<text x="24" y="48" fill="#38f2c8" font-size="12" font-weight="700" letter-spacing="1">TELEMETRY</text>
-<text x="24" y="76" fill="#6f86b3" font-size="12">awaiting first scheduled run (02:00 UTC daily) · live commit activity, language mix and recent pushes appear here</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<title>GitHub telemetry</title>
+<style>.d{fill:#6f86b3;font-size:10px}.w{fill:#d7e5ff;font-size:12px}.h{fill:#38f2c8;font-size:11px;font-weight:700;letter-spacing:1px}.bar{transform-origin:bottom;animation:g .9s ease-out both}@keyframes g{from{transform:scaleY(0)}}</style>
+<rect width="900" height="250" rx="12" fill="#070b14"/><rect x=".5" y=".5" width="899" height="249" rx="12" fill="none" stroke="#1d2f55"/>
+<text class="h" x="24" y="30">COMMIT ACTIVITY · LAST 26 WEEKS</text>
+<rect class="bar" style="animation-delay:0.00s" x="24" y="165" width="14" height="10" rx="2" fill="#38f2c8" fill-opacity="0.41"/>
+<rect class="bar" style="animation-delay:0.03s" x="42" y="78" width="14" height="97" rx="2" fill="#38f2c8" fill-opacity="0.92"/>
+<rect class="bar" style="animation-delay:0.06s" x="60" y="159" width="14" height="16" rx="2" fill="#38f2c8" fill-opacity="0.45"/>
+<rect class="bar" style="animation-delay:0.09s" x="78" y="172" width="14" height="3" rx="2" fill="#38f2c8" fill-opacity="0.37"/>
+<rect class="bar" style="animation-delay:0.12s" x="96" y="149" width="14" height="26" rx="2" fill="#38f2c8" fill-opacity="0.50"/>
+<rect class="bar" style="animation-delay:0.15s" x="114" y="107" width="14" height="68" rx="2" fill="#38f2c8" fill-opacity="0.75"/>
+<rect class="bar" style="animation-delay:0.18s" x="132" y="146" width="14" height="29" rx="2" fill="#38f2c8" fill-opacity="0.52"/>
+<rect class="bar" style="animation-delay:0.21s" x="150" y="172" width="14" height="3" rx="2" fill="#38f2c8" fill-opacity="0.37"/>
+<rect class="bar" style="animation-delay:0.24s" x="168" y="169" width="14" height="6" rx="2" fill="#38f2c8" fill-opacity="0.39"/>
+<rect class="bar" style="animation-delay:0.27s" x="186" y="172" width="14" height="3" rx="2" fill="#38f2c8" fill-opacity="0.37"/>
+<rect class="bar" style="animation-delay:0.30s" x="204" y="173" width="14" height="2" rx="2" fill="#38f2c8" fill-opacity="0.35"/>
+<rect class="bar" style="animation-delay:0.33s" x="222" y="169" width="14" height="6" rx="2" fill="#38f2c8" fill-opacity="0.39"/>
+<rect class="bar" style="animation-delay:0.36s" x="240" y="173" width="14" height="2" rx="2" fill="#38f2c8" fill-opacity="0.35"/>
+<rect class="bar" style="animation-delay:0.39s" x="258" y="172" width="14" height="3" rx="2" fill="#38f2c8" fill-opacity="0.37"/>
+<rect class="bar" style="animation-delay:0.42s" x="276" y="172" width="14" height="3" rx="2" fill="#38f2c8" fill-opacity="0.37"/>
+<rect class="bar" style="animation-delay:0.45s" x="294" y="149" width="14" height="26" rx="2" fill="#38f2c8" fill-opacity="0.50"/>
+<rect class="bar" style="animation-delay:0.48s" x="312" y="136" width="14" height="39" rx="2" fill="#38f2c8" fill-opacity="0.58"/>
+<rect class="bar" style="animation-delay:0.51s" x="330" y="165" width="14" height="10" rx="2" fill="#38f2c8" fill-opacity="0.41"/>
+<rect class="bar" style="animation-delay:0.54s" x="348" y="173" width="14" height="2" rx="2" fill="#38f2c8" fill-opacity="0.35"/>
+<rect class="bar" style="animation-delay:0.57s" x="366" y="172" width="14" height="3" rx="2" fill="#38f2c8" fill-opacity="0.37"/>
+<rect class="bar" style="animation-delay:0.60s" x="384" y="65" width="14" height="110" rx="2" fill="#38f2c8" fill-opacity="1.00"/>
+<rect class="bar" style="animation-delay:0.63s" x="402" y="152" width="14" height="23" rx="2" fill="#38f2c8" fill-opacity="0.48"/>
+<rect class="bar" style="animation-delay:0.66s" x="420" y="104" width="14" height="71" rx="2" fill="#38f2c8" fill-opacity="0.77"/>
+<rect class="bar" style="animation-delay:0.69s" x="438" y="107" width="14" height="68" rx="2" fill="#38f2c8" fill-opacity="0.75"/>
+<rect class="bar" style="animation-delay:0.72s" x="456" y="126" width="14" height="49" rx="2" fill="#38f2c8" fill-opacity="0.64"/>
+<rect class="bar" style="animation-delay:0.75s" x="474" y="117" width="14" height="58" rx="2" fill="#38f2c8" fill-opacity="0.69"/>
+<text class="d" x="24" y="196">325 contributions in the last year · peak week 34</text>
+<text class="h" x="520" y="30">LANGUAGE MIX (OWNED REPOS)</text>
+<rect x="520" y="42" width="89" height="10" rx="2" fill="#38f2c8"/>
+<text class="w" x="520" y="74"><tspan fill="#38f2c8">■</tspan> Python <tspan class="d">25%</tspan></text>
+<rect x="611" y="42" width="89" height="10" rx="2" fill="#7aa2ff"/>
+<text class="w" x="520" y="90"><tspan fill="#7aa2ff">■</tspan> TypeScript <tspan class="d">25%</tspan></text>
+<rect x="702" y="42" width="89" height="10" rx="2" fill="#c792ff"/>
+<text class="w" x="520" y="106"><tspan fill="#c792ff">■</tspan> JavaScript <tspan class="d">25%</tspan></text>
+<rect x="793" y="42" width="36" height="10" rx="2" fill="#ffb86b"/>
+<text class="w" x="520" y="122"><tspan fill="#ffb86b">■</tspan> HTML <tspan class="d">10%</tspan></text>
+<rect x="831" y="42" width="36" height="10" rx="2" fill="#ff7ab8"/>
+<text class="w" x="520" y="138"><tspan fill="#ff7ab8">■</tspan> CSS <tspan class="d">10%</tspan></text>
+<rect x="869" y="42" width="18" height="10" rx="2" fill="#9aa7c7"/>
+<text class="w" x="520" y="154"><tspan fill="#9aa7c7">■</tspan> PHP <tspan class="d">5%</tspan></text>
+<text class="h" x="520" y="178">RECENT PUSHES</text>
+<text class="w" x="520" y="198">Ayush85 <tspan class="d">today</tspan></text>
+<text class="w" x="520" y="214">fatafat-backend <tspan class="d">today</tspan></text>
+<text class="w" x="520" y="230">MoodMenu <tspan class="d">6d ago</tspan></text>
+<text class="d" x="24" y="238">generated 2026-10-14 10:41 UTC from the GitHub API</text>
 </svg>
