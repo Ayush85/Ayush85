@@ -1,7 +1,5 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Ayush%20Shrestha&fontColor=00f5d4&fontSize=52&fontAlignY=38&desc=Full%20Stack%20and%20Infrastructure%20Engineer&descColor=9be7ff&descSize=18&descAlignY=60" alt="Ayush Shrestha"/>
-
 <p align="center">
-  <a href="https://github.com/ayush85"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=00F5D4&center=true&vCenter=true&width=640&lines=%24+kubectl+get+nodes+--all;%24+mysql+%3E+SHOW+REPLICA+STATUS%5CG;%24+shipping+React+%2B+TypeScript+to+prod;%24+building+systems+from+code+to+cluster" alt="typing intro"/></a>
+  <img src="assets/hero.svg" alt="Ayush Shrestha: platform topology" width="100%"/>
 </p>
 
 <p align="center">
@@ -26,26 +24,6 @@ focus:
   - MySQL replication, nginx / HAProxy traffic routing, observability
   - Distributed access control and real-time sync over MQTT
 stack:       [TypeScript, React, .NET Core, Node.js, Django, Go, Kubernetes]
-```
-
-## `~ $ cat architecture.mmd`
-
-A simplified view of the platform I build and run day to day.
-
-```mermaid
-flowchart LR
-    U([Users]) --> N[nginx<br/>JWT routing via NJS]
-    N --> H{{HAProxy<br/>active-active}}
-    H --> A[Primary server A]
-    H --> B[Primary server B]
-    A --> K[(k3s cluster<br/>2 nodes)]
-    B --> K
-    K --> M[(MySQL primary)]
-    M -. GTID semi-sync .-> R[(MySQL replica)]
-    K --> Q[[MQTT<br/>real-time sync]]
-    K -.-> O[Prometheus · Grafana · Loki]
-    A -.-> O
-    B -.-> O
 ```
 
 ## `~ $ ls ./stack`
@@ -80,23 +58,24 @@ flowchart LR
                    HR system (Django), Core PHP + Supabase, Pandas/Selenium scraping
 ```
 
-## `~ $ ls ./projects`
+## `~ $ ls -l ./projects`
 
-| Project | What it is | Tech |
-| --- | --- | --- |
-| **Fatafat** ([API](https://github.com/ayush85/fatafat-backend)) | E-commerce platform: Next.js storefront (private repo) on a Laravel REST API with Sanctum auth, products, cart, orders, reviews and Scribe docs | Next.js, Laravel, MySQL |
-| [**Egg Farm Management**](https://egg-farm.aydexis.com) | Management platform for poultry and egg farm operations (live demo; source is private) | TypeScript |
-| **Optix** | Small-tools and equipment tracking for construction: custody, jobsite assignment and an append-only ledger (private repo) | Next.js, Hono, tRPC, Drizzle, Postgres |
-| [**Menuor**](https://github.com/ayush85/MoodMenu) | Multi-restaurant menu platform with per-restaurant custom domains, automated nginx and Let's Encrypt provisioning | Next.js, Prisma, Docker |
-| [**aydexCloud**](https://github.com/ayush85/aydexCloud) | Privacy-focused web analytics: Go event tracker with a Next.js dashboard | Go, Next.js, Prisma |
-| **Futsal Booking** | Court booking with customer, owner and admin roles and an approve/reject flow (private repo) | React, Express, Prisma |
-| [**FinTrack**](https://github.com/ayush85/FinTrack) | React Native app that parses bank and wallet SMS into categorized spending summaries | React Native |
+| Project | Visibility | Stack | Engineering notes |
+| --- | --- | --- | --- |
+| [**egg-farm**](https://egg-farm.aydexis.com) | `live` | `TypeScript` | Management platform for poultry and egg farm operations (source private) |
+| [**menuor**](https://github.com/ayush85/MoodMenu) | `public` | `Next.js` `Prisma` `Docker` | Multi-tenant menus; per-restaurant custom domains with cron-driven nginx vhost + certbot provisioning |
+| [**aydexCloud**](https://github.com/ayush85/aydexCloud) | `public` | `Go` `Next.js` `Prisma` `Caddy` | Privacy-first analytics: Go event tracker, Next.js dashboard, Sentry, Compose deploy |
+| **futsal** | `private` | `React` `Express` `Prisma` `Postgres` | Role-based booking (customer / owner / admin); slot lock on approve auto-rejects competing requests |
+| [**FinTrack**](https://github.com/ayush85/FinTrack) | `public` | `React Native` | On-device SMS parsing into categorized debit/credit summaries |
 
-## `~ $ ./stats.sh`
+## `~ $ ./status.sh`
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ayush85&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush85&theme=tokyonight&hide_border=true&layout=compact" alt="Top languages"/>
+  <img src="assets/terminal.svg" alt="Terminal: project status" width="100%"/>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2c5364,100:0f2027&section=footer" alt=""/>
+## `~ $ tail -f telemetry.log`
+
+<p align="center">
+  <img src="assets/telemetry.svg" alt="Live GitHub telemetry" width="100%"/>
+</p>

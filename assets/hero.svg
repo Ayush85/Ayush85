@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<title>Ayush Shrestha: production platform topology</title>
+<defs>
+<pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#12203a" stroke-width="1"/></pattern>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050912"/><stop offset="1" stop-color="#0a1426"/></linearGradient>
+<linearGradient id="sc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38f2c8" stop-opacity="0"/><stop offset=".5" stop-color="#38f2c8" stop-opacity=".07"/><stop offset="1" stop-color="#38f2c8" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+.n{fill:#0b1426;stroke:#2a4a86;stroke-width:1.2}
+.t{fill:#d7e5ff;font-size:13px;font-weight:700}
+.s{fill:#6f86b3;font-size:10px}
+.e{stroke:#27406f;stroke-width:1.4;fill:none}
+.led{fill:#38f2c8;animation:p 2.2s ease-in-out infinite}
+@keyframes p{50%{opacity:.25}}
+.scan{animation:sc 6s linear infinite}
+@keyframes sc{from{transform:translateY(-80px)}to{transform:translateY(420px)}}
+</style>
+<rect width="900" height="330" rx="14" fill="url(#bg)"/><rect width="900" height="330" rx="14" fill="url(#g)"/>
+<rect class="scan" width="900" height="80" fill="url(#sc)"/>
+<rect x=".5" y=".5" width="899" height="329" rx="14" fill="none" stroke="#1d2f55"/>
+<text x="32" y="50" fill="#38f2c8" font-size="30" font-weight="800" letter-spacing="3" filter="url(#glow)">AYUSH SHRESTHA</text>
+<text x="32" y="74" fill="#8fb3ff" font-size="13">full-stack · infrastructure · distributed systems</text>
+<text x="868" y="46" fill="#6f86b3" font-size="11" text-anchor="end">node-01 · Kathmandu, NP</text>
+<text x="868" y="64" fill="#38f2c8" font-size="11" text-anchor="end"><tspan class="led">●</tspan> all systems nominal</text>
+<path id="e0" class="e" d="M120,198.0 C140.0,198.0 140.0,198.0 160,198.0"/>
+<path id="e1" class="e" d="M260,198.0 C280.0,198.0 280.0,198.0 300,198.0"/>
+<path id="e2" class="e" d="M410,198.0 C440.0,198.0 440.0,138.0 470,138.0"/>
+<path id="e3" class="e" d="M410,198.0 C440.0,198.0 440.0,258.0 470,258.0"/>
+<path id="e4" class="e" d="M590,138.0 C630.0,138.0 630.0,108.0 670,108.0"/>
+<path id="e5" class="e" d="M590,138.0 C630.0,138.0 630.0,193.0 670,193.0"/>
+<path id="e6" class="e" d="M590,258.0 C630.0,258.0 630.0,193.0 670,193.0"/>
+<path id="e7" class="e" d="M590,258.0 C630.0,258.0 630.0,278.0 670,278.0"/>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.6s" begin="-0.00s" repeatCount="indefinite"><mpath href="#e0"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.6s" begin="-1.30s" repeatCount="indefinite"><mpath href="#e0"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.9s" begin="-0.20s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.9s" begin="-1.65s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="3.2s" begin="-0.40s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="3.2s" begin="-2.00s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.6s" begin="-0.60s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.6s" begin="-1.90s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.9s" begin="-0.80s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.9s" begin="-2.25s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="3.2s" begin="-1.00s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="3.2s" begin="-2.60s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.6s" begin="-1.20s" repeatCount="indefinite"><mpath href="#e6"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.6s" begin="-2.50s" repeatCount="indefinite"><mpath href="#e6"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.9s" begin="-1.40s" repeatCount="indefinite"><mpath href="#e7"/></animateMotion></circle>
+<circle r="2.6" fill="#38f2c8" filter="url(#glow)"><animateMotion dur="2.9s" begin="-2.85s" repeatCount="indefinite"><mpath href="#e7"/></animateMotion></circle>
+<rect class="n" x="30" y="175" width="90" height="46" rx="8"/>
+<circle class="led" cx="42" cy="189" r="3" style="animation-delay:0.2s"/>
+<text class="t" x="52" y="193">users</text><text class="s" x="42" y="210">HTTPS</text>
+<rect class="n" x="160" y="175" width="100" height="46" rx="8"/>
+<circle class="led" cx="172" cy="189" r="3" style="animation-delay:0.8s"/>
+<text class="t" x="182" y="193">nginx</text><text class="s" x="172" y="210">JWT / NJS</text>
+<rect class="n" x="300" y="175" width="110" height="46" rx="8"/>
+<circle class="led" cx="312" cy="189" r="3" style="animation-delay:0.1s"/>
+<text class="t" x="322" y="193">HAProxy</text><text class="s" x="312" y="210">active-active</text>
+<rect class="n" x="470" y="115" width="120" height="46" rx="8"/>
+<circle class="led" cx="482" cy="129" r="3" style="animation-delay:0.4s"/>
+<text class="t" x="492" y="133">k3s node A</text><text class="s" x="482" y="150">workloads</text>
+<rect class="n" x="470" y="235" width="120" height="46" rx="8"/>
+<circle class="led" cx="482" cy="249" r="3" style="animation-delay:0.5s"/>
+<text class="t" x="492" y="253">k3s node B</text><text class="s" x="482" y="270">workloads</text>
+<rect class="n" x="670" y="85" width="150" height="46" rx="8"/>
+<circle class="led" cx="682" cy="99" r="3" style="animation-delay:0.0s"/>
+<text class="t" x="692" y="103">MySQL 8.4</text><text class="s" x="682" y="120">GTID semi-sync</text>
+<rect class="n" x="670" y="170" width="150" height="46" rx="8"/>
+<circle class="led" cx="682" cy="184" r="3" style="animation-delay:0.2s"/>
+<text class="t" x="692" y="188">MQTT bus</text><text class="s" x="682" y="205">access sync</text>
+<rect class="n" x="670" y="255" width="150" height="46" rx="8"/>
+<circle class="led" cx="682" cy="269" r="3" style="animation-delay:0.9s"/>
+<text class="t" x="692" y="273">Observability</text><text class="s" x="682" y="290">prom · grafana · loki</text>
+<text x="32" y="312" fill="#4d6592" font-size="10">$ platform --topology   # k3s · Proxmox · LXD · MySQL replication · MQTT</text>
+</svg>
