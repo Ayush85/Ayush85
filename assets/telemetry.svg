@@ -28,24 +28,24 @@
 <rect class="bar" style="animation-delay:0.66s" x="420" y="126" width="14" height="49" rx="2" fill="#38f2c8" fill-opacity="0.64"/>
 <rect class="bar" style="animation-delay:0.69s" x="438" y="101" width="14" height="74" rx="2" fill="#38f2c8" fill-opacity="0.79"/>
 <rect class="bar" style="animation-delay:0.72s" x="456" y="156" width="14" height="19" rx="2" fill="#38f2c8" fill-opacity="0.46"/>
-<rect class="bar" style="animation-delay:0.75s" x="474" y="173" width="14" height="2" rx="2" fill="#38f2c8" fill-opacity="0.35"/>
-<text class="d" x="24" y="196">336 contributions in the last year · peak week 34</text>
+<rect class="bar" style="animation-delay:0.75s" x="474" y="146" width="14" height="29" rx="2" fill="#38f2c8" fill-opacity="0.52"/>
+<text class="d" x="24" y="196">345 contributions in the last year · peak week 34</text>
 <text class="h" x="520" y="30">LANGUAGE MIX (OWNED REPOS)</text>
-<rect x="520" y="42" width="102" height="10" rx="2" fill="#38f2c8"/>
-<text class="w" x="520" y="74"><tspan fill="#38f2c8">■</tspan> Python <tspan class="d">29%</tspan></text>
-<rect x="624" y="42" width="85" height="10" rx="2" fill="#7aa2ff"/>
-<text class="w" x="520" y="90"><tspan fill="#7aa2ff">■</tspan> TypeScript <tspan class="d">24%</tspan></text>
-<rect x="711" y="42" width="85" height="10" rx="2" fill="#c792ff"/>
-<text class="w" x="520" y="106"><tspan fill="#c792ff">■</tspan> JavaScript <tspan class="d">24%</tspan></text>
-<rect x="798" y="42" width="34" height="10" rx="2" fill="#ffb86b"/>
-<text class="w" x="520" y="122"><tspan fill="#ffb86b">■</tspan> HTML <tspan class="d">10%</tspan></text>
-<rect x="834" y="42" width="34" height="10" rx="2" fill="#ff7ab8"/>
-<text class="w" x="520" y="138"><tspan fill="#ff7ab8">■</tspan> CSS <tspan class="d">10%</tspan></text>
-<rect x="870" y="42" width="17" height="10" rx="2" fill="#9aa7c7"/>
+<rect x="520" y="42" width="113" height="10" rx="2" fill="#38f2c8"/>
+<text class="w" x="520" y="74"><tspan fill="#38f2c8">■</tspan> Python <tspan class="d">32%</tspan></text>
+<rect x="635" y="42" width="81" height="10" rx="2" fill="#7aa2ff"/>
+<text class="w" x="520" y="90"><tspan fill="#7aa2ff">■</tspan> TypeScript <tspan class="d">23%</tspan></text>
+<rect x="718" y="42" width="81" height="10" rx="2" fill="#c792ff"/>
+<text class="w" x="520" y="106"><tspan fill="#c792ff">■</tspan> JavaScript <tspan class="d">23%</tspan></text>
+<rect x="801" y="42" width="32" height="10" rx="2" fill="#ffb86b"/>
+<text class="w" x="520" y="122"><tspan fill="#ffb86b">■</tspan> HTML <tspan class="d">9%</tspan></text>
+<rect x="835" y="42" width="32" height="10" rx="2" fill="#ff7ab8"/>
+<text class="w" x="520" y="138"><tspan fill="#ff7ab8">■</tspan> CSS <tspan class="d">9%</tspan></text>
+<rect x="869" y="42" width="16" height="10" rx="2" fill="#9aa7c7"/>
 <text class="w" x="520" y="154"><tspan fill="#9aa7c7">■</tspan> Jupyter Notebook <tspan class="d">5%</tspan></text>
 <text class="h" x="520" y="178">RECENT PUSHES</text>
-<text class="w" x="520" y="198">Ayush85 <tspan class="d">today</tspan></text>
-<text class="w" x="520" y="214">neuromem <tspan class="d">8d ago</tspan></text>
-<text class="w" x="520" y="230">MoodMenu <tspan class="d">19d ago</tspan></text>
-<text class="d" x="24" y="238">generated 2026-10-27 07:13 UTC from the GitHub API</text>
+<text class="w" x="520" y="198">aydexCloud <tspan class="d">today</tspan></text>
+<text class="w" x="520" y="214">infoharness <tspan class="d">today</tspan></text>
+<text class="w" x="520" y="230">Ayush85 <tspan class="d">1d ago</tspan></text>
+<text class="d" x="24" y="238">generated 2026-10-28 07:52 UTC from the GitHub API</text>
 </svg>
