@@ -29,7 +29,7 @@
 <rect class="bar" style="animation-delay:0.69s" x="438" y="130" width="14" height="45" rx="2" fill="#38f2c8" fill-opacity="0.62"/>
 <rect class="bar" style="animation-delay:0.72s" x="456" y="173" width="14" height="2" rx="2" fill="#38f2c8" fill-opacity="0.35"/>
 <rect class="bar" style="animation-delay:0.75s" x="474" y="173" width="14" height="2" rx="2" fill="#38f2c8" fill-opacity="0.35"/>
-<text class="d" x="24" y="196">361 contributions in the last year · peak week 34</text>
+<text class="d" x="24" y="196">358 contributions in the last year · peak week 34</text>
 <text class="h" x="520" y="30">LANGUAGE MIX (OWNED REPOS)</text>
 <rect x="520" y="42" width="108" height="10" rx="2" fill="#38f2c8"/>
 <text class="w" x="520" y="74"><tspan fill="#38f2c8">■</tspan> Python <tspan class="d">30%</tspan></text>
@@ -45,7 +45,7 @@
 <text class="w" x="520" y="154"><tspan fill="#9aa7c7">■</tspan> Jupyter Notebook <tspan class="d">4%</tspan></text>
 <text class="h" x="520" y="178">RECENT PUSHES</text>
 <text class="w" x="520" y="198">Ayush85 <tspan class="d">1d ago</tspan></text>
-<text class="w" x="520" y="214">IOT <tspan class="d">11d ago</tspan></text>
-<text class="w" x="520" y="230">Ayush85.github.io <tspan class="d">14d ago</tspan></text>
-<text class="d" x="24" y="238">generated 2026-11-15 08:46 UTC from the GitHub API</text>
+<text class="w" x="520" y="214">IOT <tspan class="d">12d ago</tspan></text>
+<text class="w" x="520" y="230">Ayush85.github.io <tspan class="d">15d ago</tspan></text>
+<text class="d" x="24" y="238">generated 2026-11-16 08:57 UTC from the GitHub API</text>
 </svg>
